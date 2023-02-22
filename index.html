@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.3.0/css/all.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbarbg">
+        <div class="container py-3">
+          <a class="navbar-brand ms-lg-3 ms-sm-1" href="#home">
+            <i class="fal fa-tv-retro d-inline-block align-middle"></i>
+            Landing <span> Page</span>
+          </a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbaroffcanvasLg" aria-controls="navbaroffcanvasLg">
+            <span class="navbartoggle"><i class="fa-light fa-bars"></i></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="navbaroffcanvasLg" aria-labelledby="navbaroffcanvasLgLabel">
+            <div class="offcanvas-header sidebarbg text-white">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Hamza Personal</h5>
+              <button type="button" class="btn closebtn" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fas fa-xmark"></i></button>
+            </div>
+            <div class="offcanvas-body sidebarbg">
+              <ul class="navbar-nav justify-content-end flex-lg-grow-1 gap-lg-2 gap-md-5 gap-sm-5 gap-5 align-items-center ms-lg-5">
+                <li class="nav-item">
+                  <a class="simplebtn" role="button" aria-current="page" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="secondarybtn" role="button" href="#">How it works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="primarybtn" role="button" href="#"><i class="fal fa-rocket me-2"></i>Get Started</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid herosection py-lg-5 py-md-3 py-sm-1 py-1" id="home">
+        <div class="container herocontainer">
+            <div class="row g-lg-0 g-md-1 g-sm-3 g-4">
+                <div class="col-lg-8 col-md-6 col-sm-12 col-12">
+                    <div class="d-flex flex-column">
+                        <h1 class="heading">Create Engaging Landing Pages</h1>
+                        <p class="slogan">Build beautiful landing pages in record time with Anima's Landing Page UI kit for Figma. No code required!</p>
+                    </div>
+                    <div class="d-flex flex-row gap-4">
+                        <a class="primarybtn" role="button" href="#"><i class="fal fa-rocket me-2"></i>Get Started</a>
+                        <a class="secondarybtn" role="button" href="#">How it works</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <img src="./images/hero1.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid logosection py-lg-2 py-md-2 py-sm-2 py-3">
+        <div class="container logocontainer py-lg-2 py-md-2 py-sm-2 py-3">
+            <div class="row g-lg-0 g-md-5 g-sm-5 g-4">
+                <div class="col-lg-2 col-md-2 col-sm-4 col-12">
+                    <div class="d-flex justify-content-center">
+                        <img src="./images/airbnb.svg" alt="logo" class="img-fluid logos">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-12">
+                    <div class="d-flex justify-content-center">
+                        <img src="./images/google.svg" alt="logo" class="img-fluid logos">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-12">
+                    <div class="d-flex justify-content-center">
+                        <img src="./images/amazon.svg" alt="logo" class="img-fluid logos">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-12">
+                    <div class="d-flex justify-content-center">
+                        <img src="./images/Microsoft.svg" alt="logo" class="img-fluid logos">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-12">
+                    <div class="d-flex justify-content-center">
+                        <img src="./images/Fedex.svg" alt="logo" class="img-fluid logos">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-4 col-12">
+                    <div class="d-flex justify-content-center">
+                        <img src="./images/Hubspot.svg" alt="logo" class="img-fluid logos">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid featuresection py-lg-5 py-md-3 py-sm-2 py-2">
+        <div class="container featurecontainer">
+            <div class="d-flex flex-column justify-content-center">
+                <h2 class="heading">Features</h2>
+                <div class="slogan">These are just a few features you'll get using Anima Landing Page Ui Kit.</div>
+            </div>
+            <div class="row g-lg-4 g-md-4 g-sm-5 g-4">
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <div class="icon">
+                                <i class="fal fa-wand-magic-sparkles icon1"></i>
+                            </div>
+                            <h5 class="card-title">Fast Building</h5>
+                            <p class="card-text">Tailor Anima's Landing Page UI Kit to your unique style and brand with customisable components, in no time! </p>
+                            <a href="#" class="simplebtn">Learn More <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <div class="icon">
+                                <i class="fal fa-vector-square icon2"></i>
+                            </div>
+                            <h5 class="card-title">Responsive Design</h5>
+                            <p class="card-text">No need to worry about screen size. Anima's Landing Page UI Kit adapts to any screen size, from desktop to mobile. </p>
+                            <a href="#" class="simplebtn">Learn More <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <div class="icon">
+                                <i class="fal fa-party-horn icon3"></i>
+                            </div>
+                            <h5 class="card-title">No Code Needed</h5>
+                            <p class="card-text">Zero coding skills required, Anima's Landing Page UI Kit empowers you to create stunning landing pages with ease. </p>
+                            <a href="#" class="simplebtn">Learn More <i class="fal fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid herosection2 py-lg-5 py-md-3 py-sm-1 py-1">
+        <div class="container herocontainer2">
+            <div class="row g-lg-0 g-md-1 g-sm-3 g-4">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <img src="./images/hero2.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="d-flex flex-column">
+                        <h1 class="heading">Get Landing Page UI Kit Today!</h1>
+                        <p class="slogan">Break the Figma limits and explore the endless possibilities with Anima.</p>
+                    </div>
+                    <div class="d-flex flex-row gap-4">
+                        <a class="primarybtn" role="button" href="#">Get Started<i class="fal fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid goalsection py-lg-5 py-md-3 py-sm-2 py-2">
+        <div class="container goalcontainer">
+            <div class="d-flex flex-column justify-content-center">
+                <h2 class="heading">Our Metrics Tell the Story</h2>
+                <div class="slogan">Our metrics component gives you the inside scoop on your success and helps you stay on top of your game in style.</div>
+            </div>
+            <div class="row g-lg-4 g-md-4 g-sm-5 g-4">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <h5 class="card-title">10k+</h5>
+                            <p class="card-text">Website launched</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <h5 class="card-title">931k+</h5>
+                            <p class="card-text">Project created with Anima</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <h5 class="card-title">240k+</h5>
+                            <p class="card-text">New users joined Anima</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <h5 class="card-title">12k+</h5>
+                            <p class="card-text">Teams used Anima</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid reviewsection py-lg-5 py-md-3 py-sm-2 py-2">
+        <div class="container reviewcontainer">
+            <div class="d-flex flex-column justify-content-center">
+                <h2 class="heading">Real Stories from Satistified Customers</h2>
+                <div class="slogan">See how our landing page ui kit is making an impact.</div>
+            </div>
+            <div class="row g-lg-4 g-md-4 g-sm-5 g-4">
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <img src="./images/team1.webp" alt="" class="img-fluid rounded-circle">
+                            <h5 class="card-title">Michael Smith</h5>
+                            <p class="designation">UX Designer @Brello</p>
+                            <p class="card-text">"I was looking for a way to streamline my design process and the Anima’s Landing Page UI Kit was a lifesaver! The intuitive design and ease of customisation have saved me hours of time and effort. Highly recommend!" </p>
+                            <div class="d-flex flex-row rating gap-1 justify-content-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <img src="./images/team2.webp" alt="" class="img-fluid rounded-circle">
+                            <h5 class="card-title">Sarah Martin</h5>
+                            <p class="designation">Creative Director @Yo</p>
+                            <p class="card-text">“The Landing Page UI Kit has been a game changer for my agency. The pre-designed components and templates have helped us deliver projects faster and with more consistency. Great job!" </p>
+                            <div class="d-flex flex-row rating gap-1 justify-content-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <img src="./images/team3.webp" alt="" class="img-fluid rounded-circle">
+                            <h5 class="card-title">John Lauren</h5>
+                            <p class="designation">UI Designer @Boo</p>
+                            <p class="card-text">"Anima's Landing Page UI Kit has become a staple in my design toolkit. Whether I'm working on a new project or need to make updates to an existing one, this kit has everything I need to get the job done quickly and efficiently." </p>
+                            <div class="d-flex flex-row rating gap-1 justify-content-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pricesection py-lg-5 py-md-3 py-sm-2 py-2">
+        <div class="container pricecontainer">
+            <div class="d-flex flex-column justify-content-center">
+                <h2 class="heading">Pick Your Perfect Plan</h2>
+                <div class="slogan">Find the perfect plan for your business with our flexible pricing options.</div>
+            </div>
+            <div class="row g-lg-4 g-md-4 g-sm-5 g-4">
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <p class="name">Free</p>
+                            <h5 class="card-title">$0 <span>/month</span></h5>
+                            <p class="card-text">Best for Small Teams or Individuals.</p>
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span> 3 User</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span> 5 Project</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span> 4 GB Storage</li>
+                            </ul>
+                            <a class="secondarybtn" role="button" href="#">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <p class="name">Professional</p>
+                            <h5 class="card-title">$19 <span>/month</span></h5>
+                            <p class="card-text">Ideal for Growing Companies.</p>
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span> 15 User</li> 
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span> 25 Project</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span> 50 GB Storage</li>
+                            </ul>
+                            <a class="secondarybtn" role="button" href="#">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="card h-100 enterprise">
+                        <div class="card-body d-flex flex-column">
+                            <p class="name">Enterprise</p>
+                            <h5 class="card-title">$49 <span>/month</span></h5>
+                            <p class="card-text">Ultimate for Enterprise Solutions.</p>
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span> 50 User</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span> Unlimited Project</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-check"></i></span> 100 GB Storage</li>
+                            </ul>
+                            <a class="primarybtn" role="button" href="#">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid teamsection py-lg-5 py-md-3 py-sm-2 py-2">
+        <div class="container teamcontainer">
+            <div class="d-flex flex-column justify-content-center">
+                <h2 class="heading">Meet Our Team</h2>
+                <div class="slogan">Get to know the faces behind the scenes and learn about the values that drive us.</div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12 d-flex justify-content-center">
+                    <div class="card h-100">
+                        <img src="./images/team1.webp" alt="" class="card-img-top img-fluid">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <h5 class="card-title">Jason Jordan</h5>
+                            <p class="card-text">UX Designer</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="d-flex flex-row justify-content-center gap-lg-3 gap-md-2 gap-sm-1 gap-1">
+                                <a href="#"><i class="fab fa-facebook-f rounded-circle"></i></a>
+                                <a href="#"><i class="fab fa-twitter rounded-circle"></i></a>
+                                <a href="#"><i class="fab fa-instagram rounded-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12 d-flex justify-content-center">
+                    <div class="card h-100">
+                        <img src="./images/team2.webp" alt="" class="card-img-top img-fluid">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <h5 class="card-title">Sarah Klark</h5>
+                            <p class="card-text">Lead Designer</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="d-flex flex-row justify-content-center gap-lg-3 gap-md-2 gap-sm-1 gap-1">
+                                <a href="#"><i class="fab fa-facebook-f rounded-circle"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in rounded-circle"></i></a>
+                                <a href="#"><i class="fab fa-instagram rounded-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12 d-flex justify-content-center">
+                    <div class="card h-100">
+                        <img src="./images/team3.webp" alt="" class="card-img-top img-fluid">
+                        <div class="card-body d-flex flex-column justify-content-center">
+                            <h5 class="card-title">Will Smith</h5>
+                            <p class="card-text">Product Designer</p>
+                        </div>
+                        <div class="card-footer">
+                            <div class="d-flex flex-row justify-content-center gap-lg-3 gap-md-2 gap-sm-1 gap-1">
+                                <a href="#"><i class="fab fa-facebook-f rounded-circle"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in rounded-circle"></i></a>
+                                <a href="#"><i class="fab fa-instagram rounded-circle"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid herosection3 py-lg-5 py-md-3 py-sm-1 py-1">
+        <div class="container herocontainer3">
+            <div class="row g-lg-0 g-md-1 g-sm-3 g-4">
+                <div class="col-lg-8 col-md-6 col-sm-12 col-12 py-3 px-5">
+                    <div class="d-flex flex-column">
+                        <h1 class="heading">Get Landing Page <br> UI Kit Today!</h1>
+                        <p class="slogan">Break the Figma limits and explore the endless possibilities with Anima.</p>
+                    </div>
+                    <div class="d-flex flex-row gap-4">
+                        <a class="primarybtn" role="button" href="#">Get Started<i class="fal fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12">
+                    <img src="./images/cta.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid contactsection py-lg-5 py-md-3 py-sm-1 py-1">
+        <div class="container contactcontainer">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row g-lg-0 g-md-1 g-sm-3 g-4">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12 py-3 px-5">
+                            <div class="d-flex flex-column">
+                                <h1 class="heading">Let's get in touch!</h1>
+                                <p class="slogan">Got questions about the Landing Page UI Kit? Our team is here to help. Contact us for quick and friendly support.</p>
+                            </div>
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="fad fa-phone-volume"></i></span> +012 345 6789</li>
+                                <li><span class="fa-li"><i class="fad fa-envelope"></i></span> hello@animaapp.com</li>
+                            </ul>
+                            <h5 class="subheading">Connect with us</h5>
+                            <div class="d-flex flex-row gap-lg-4 gap-md-4 gap-sm-3 gap-2 icons1">
+                                <a href="#"><i class="fab fa-facebook-f rounded-circle"></i></a>
+                                <a href="#"><i class="fab fa-twitter rounded-circle"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in rounded-circle"></i></a>
+                                <a href="#"><i class="fab fa-instagram rounded-circle"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <form>
+                                <div class="inputcontainer mb-3 d-flex flex-row justify-content-between align-items-center">
+                                    <i class="fad fa-user"></i>
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="inputcontainer mb-3 d-flex flex-row justify-content-between align-items-center">
+                                    <i class="fad fa-envelope"></i>
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="inputcontainer mb-3 d-flex flex-row justify-content-between align-items-center">
+                                    <textarea class="form-control" placeholder="Message" rows="5"></textarea>
+                                </div>
+                                <div class="d-flex flex-row justify-content-start">
+                                    <button type="submit" class="primarybtn">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid footersection py-lg-3 py-md-3 py-sm-2 py-2">
+        <div class="container footercontainer">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <p class="footertext">© 2023 Anima's Landing Page UI Kit. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>

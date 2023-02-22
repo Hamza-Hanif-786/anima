@@ -1,0 +1,1045 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.navbarbg {
+    background-color: #F8F9FF;
+    height: 80px;
+}
+
+.navbar .navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #39393a;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar .navbar-brand span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #39393a;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar .navbar-brand:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.sidebarbg {
+    background-color: #F8F9FF;
+
+}
+
+.offcanvas .closebtn {
+    font-size: 24px;
+    border: none;
+    outline: none;
+    color: #1a2023;
+}
+   
+.offcanvas .offcanvas-body .navbar-nav .nav-item:hover {
+    cursor: pointer;
+}
+
+.offcanvas .offcanvas-body .navbar-nav .nav-item .simplebtn {
+    font-size: 16px;
+    font-weight: 500;
+    color: #009379;
+    border: none;
+    outline: none;
+    background-color: #fcfcfc;
+    transition: 0.3s ease-in-out all;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+.offcanvas .offcanvas-body .navbar-nav .nav-item .simplebtn:hover {
+    background-color: #009379;
+    color: #fcfcfc;
+    transition: 0.3s ease-in-out all;
+}
+
+.offcanvas .offcanvas-body .navbar-nav .nav-item .secondarybtn {
+    font-size: 16px;
+    font-weight: 500;
+    color: #009379;
+    border: none;
+    outline: none;
+    background-color: #E5F4F2;
+    transition: 0.3s ease-in-out all;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+.offcanvas .offcanvas-body .navbar-nav .nav-item .secondarybtn:hover {
+    background-color: #009379;
+    color: #fcfcfc;
+    transition: 0.3s ease-in-out all;
+}
+
+.offcanvas .offcanvas-body .navbar-nav .nav-item .primarybtn {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #009379;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    transition: 0.3s ease-in-out all;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+}
+
+.offcanvas .offcanvas-body .navbar-nav .nav-item .primarybtn:hover {
+    color: #009379;
+    background-color: #fcfcfc;
+    transition: 0.3s ease-in-out all;
+}
+
+
+.navbar .navbar-toggler{
+    border: none;
+    color: transparent;
+}
+
+.navbar-toggler span i{
+    font-size: 30px;
+    color: #1a2023;
+}
+
+.herosection{
+    background-color: #F8F9FF;
+
+}
+
+.herosection .herocontainer{
+    padding: 100px 0;
+}
+
+.herosection .heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    font-weight: 800;
+    color: #1a2023;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.herosection .slogan {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #1a2023;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.herosection .primarybtn {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #009379;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    transition: 0.3s ease-in-out all;
+    text-decoration: none;
+    padding: 15px 55px;
+    border-radius: 20px;
+}
+
+.herosection .primarybtn:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out all;
+}
+
+.herosection .secondarybtn {
+    font-size: 16px;
+    font-weight: 500;
+    color: #009379;
+    border: 1px solid #009379;
+    outline: none;
+    background-color: #fcfcfc;
+    transition: 0.3s ease-in-out all;
+    text-decoration: none;
+    padding: 15px 45px;
+    border-radius: 20px;
+}
+
+.herosection .secondarybtn:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out all;
+}
+
+.logosection{
+    background-color: #F8F9FF;
+}
+
+.logosection .logocontainer{
+    border-top: 1px solid #47474750;
+    border-bottom: 1px solid #47474750;
+}
+
+.logosection .logocontainer .logos{
+    padding: 10px 0;
+    width: 130px;
+    height: 100px;
+}
+
+.featuresection{
+    background-color: #F8F9FF;
+}
+
+.featuresection .featurecontainer{
+    padding: 80px 0;
+}
+
+.featuresection .featurecontainer .heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #1a2023;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.featuresection .featurecontainer .slogan{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2d2d2d;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.featuresection .featurecontainer .card{
+    border: 1px solid #d8d8d850 inset;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 35px 29px 50px #3366ff10;
+
+}
+
+.featuresection .featurecontainer .card .card-body{
+    padding: 10px;
+}
+
+.featuresection .featurecontainer .card .card-body .icon {
+    text-align: center;
+}
+
+.featuresection .featurecontainer .card .card-body .icon i{
+    font-size: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.featuresection .featurecontainer .card .card-body .icon1{
+    color: #FF6250;
+    background-color: #FF625020;
+}
+
+.featuresection .featurecontainer .card .card-body .icon2{
+    color: #009379;
+    background-color: #00937920;
+}
+
+.featuresection .featurecontainer .card .card-body .icon3{
+    color: #F8D57E;
+    background-color: #F8D57E20;
+}
+
+.featuresection .featurecontainer .card .card-body .card-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #2d2d2d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.featuresection .featurecontainer .card .card-body .card-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2d2d2d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.featuresection .featurecontainer .card .card-body .simplebtn{
+    font-size: 20px;
+    font-weight: 500;
+    color: #009379;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    transition: 0.3s ease-in-out all;
+    text-decoration: none;
+    padding: 15px 45px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.featuresection .featurecontainer .card .card-body .simplebtn:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out all;
+}
+
+.herosection2{
+  background-color: #F8F9FF;
+}
+
+.herosection2 .herocontainer2{
+    padding: 100px 0;
+}
+
+.herosection2 .heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #1a2023;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.herosection2 .slogan {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1a2023;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.herosection2 .primarybtn {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #009379;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    transition: 0.3s ease-in-out all;
+    text-decoration: none;
+    padding: 15px 55px;
+    border-radius: 20px;
+}
+
+.herosection2 .primarybtn:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out all;
+}
+
+.goalsection{
+    background-color: #F8F9FF;
+}
+
+.goalsection .goalcontainer{
+    padding: 80px 0;
+}
+
+.goalsection .goalcontainer .heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #1a2023;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.goalsection .goalcontainer .slogan{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2d2d2d;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.goalsection .goalcontainer .card{
+    border: none;
+    background-color: #fcfcfc;
+    border-bottom: 5px solid #F2BFAF;
+    border-radius: 20px 20px 0 0;
+    padding: 30px;
+    box-shadow: 35px 29px 50px #3366ff10;
+}
+
+.goalsection .goalcontainer .card .card-body{
+    padding: 10px;
+    background-color: #fcfcfc;
+}
+
+
+.goalsection .goalcontainer .card .card-body .card-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    color: #2d2d2d;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.goalsection .goalcontainer .card .card-body .card-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2d2d2d;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.reviewsection{
+    background-color: #F8F9FF;
+}
+
+.reviewsection .reviewcontainer{
+    padding: 80px 0;
+}
+
+.reviewsection .reviewcontainer .heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #1a2023;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.reviewsection .reviewcontainer .slogan{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2d2d2d;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.reviewsection .reviewcontainer .card{
+    border: 1px solid #d8d8d850 inset;
+    background-color: #fcfcfc;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 35px 29px 50px #3366ff10;
+}
+
+.reviewsection .reviewcontainer .card .card-body{
+    padding: 10px;
+    background-color: #fcfcfc;
+}
+
+.reviewsection .reviewcontainer .card .card-body img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.reviewsection .reviewcontainer .card .card-body .card-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #2d2d2d;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.reviewsection .reviewcontainer .card .card-body .designation{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #2d2d2d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reviewsection .reviewcontainer .card .card-body .card-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2d2d2d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reviewsection .reviewcontainer .card .card-body .rating{
+    font-size: 25px;
+    color: #F8D57E;
+    margin-bottom: 5px;
+}
+  
+.pricesection{
+    background-color: #F8F9FF;
+}
+
+.pricesection .pricecontainer{
+    padding: 80px 0;
+}
+
+.pricesection .pricecontainer .heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #1a2023;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pricesection .pricecontainer .slogan{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2d2d2d;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pricesection .pricecontainer .card{
+    border: 1px solid #d8d8d850 inset;
+    background-color: #fcfcfc;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 35px 29px 50px #3366ff10;
+}
+
+.pricesection .pricecontainer .card .card-body{
+    padding: 10px;
+    background-color: #fcfcfc;
+}
+
+.pricesection .pricecontainer .card .card-body .name{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2d2d2d;
+    margin-bottom: 5px;
+}
+
+.pricesection .pricecontainer .card .card-body .card-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #2d2d2d;
+    margin-bottom: 5px;
+}
+
+.pricesection .pricecontainer .card .card-body .card-title span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2d2d2d;
+    margin-bottom: 5px;
+}
+
+
+.pricesection .pricecontainer .card .card-body .card-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2d2d2d;
+    margin-bottom: 20px;
+}
+
+.pricesection .pricecontainer .card .card-body .fa-ul li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2d2d2d;
+    margin-bottom: 10px;
+}
+
+.pricesection .pricecontainer .card .card-body .secondarybtn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #009379;
+    background-color: #E5F4F2;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 25px;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.pricesection .pricecontainer .card .card-body .secondarybtn:hover{
+    background-color: #009379;
+    color: #fff;
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+
+.pricesection .pricecontainer .card.enterprise{
+    background-color: #009379;
+}
+
+.pricesection .pricecontainer .card.enterprise .card-body{
+    background-color: #009379;
+}
+
+.pricesection .pricecontainer .card.enterprise .card-body .name{
+    color: #fff;
+}
+
+.pricesection .pricecontainer .card.enterprise .card-body .card-title{
+    color: #fff;
+}
+ 
+.pricesection .pricecontainer .card.enterprise .card-body .card-title span{
+    color: #fff;
+}
+
+.pricesection .pricecontainer .card.enterprise .card-body .card-text{
+    color: #fff;
+}
+
+.pricesection .pricecontainer .card.enterprise .card-body .fa-ul li{
+    color: #fff;
+}
+
+.pricesection .pricecontainer .card.enterprise .card-body .primarybtn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #009379;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 25px;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease; 
+}
+
+.pricesection .pricecontainer .card.enterprise .card-body .primarybtn:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.teamsection{
+    background-color: #F8F9FF;
+}
+
+.teamsection .teamcontainer{
+    padding: 80px 0;
+}
+
+.teamsection .teamcontainer .heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #1a2023;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.teamsection .teamcontainer .slogan{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2d2d2d;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.teamsection .teamcontainer .card{
+    border: 1px solid #d8d8d850 inset;
+    border-radius: 20px;
+    box-shadow: 35px 29px 50px #3366ff10;
+}
+
+.teamsection .teamcontainer .card img{
+    border-radius: 20px 20px 0 0;
+    height: 300px;
+    width: 100%;
+}
+
+.teamsection .teamcontainer .card .card-body{
+    padding: 10px;
+}
+
+.teamsection .teamcontainer .card .card-footer{
+    background-color: #ffffff;
+    border-radius: 0 0 20px 20px;
+    padding: 10px;
+}
+
+.teamsection .teamcontainer .card .card-footer i{
+    font-size: 25px;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 20px;
+    color: #1a2023;
+    background-color: #E5F4F2;
+    transition: all 0.3s ease;
+} 
+
+.teamsection .teamcontainer .card .card-footer i:hover{
+    background-color: #009379;
+    color: #fff;
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+
+.teamsection .teamcontainer .card .card-body .card-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #2d2d2d;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.teamsection .teamcontainer .card .card-body .card-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2d2d2d;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.herosection3{
+    background-color: #F8F9FF;
+  }
+  
+  .herosection3 .herocontainer3{
+    padding: 0;
+    background-color: #F2BFAF;
+    border-radius: 20px;
+  }
+  
+  .herosection3 .heading {
+      font-family: 'Poppins', sans-serif;
+      font-size: 45px;
+      font-weight: 800;
+      color: #1a2023;
+      transition: 0.3s ease-in-out;
+      margin-bottom: 20px;
+        padding: 20px 0;
+  }
+  
+  .herosection3 .slogan {
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      color: #1a2023;
+      transition: 0.3s ease-in-out;
+      margin-bottom: 20px;
+  }
+  
+  .herosection3 .primarybtn {
+      font-size: 16px;
+      font-weight: 500;
+      background-color: #009379;
+      border: none;
+      outline: none;
+      color: #ffffff;
+      transition: 0.3s ease-in-out all;
+      text-decoration: none;
+      padding: 15px 55px;
+      border-radius: 20px;
+  }
+  
+  .herosection3 .primarybtn:hover {
+      transform: scale(1.1);
+      transition: 0.3s ease-in-out all;
+  }
+
+  .contactsection{
+    background-color: #F8F9FF;
+  }
+
+    .contactsection .contactcontainer{
+        padding: 80px 0;
+    }
+
+    .contactsection .contactcontainer .heading{
+        font-family: 'Poppins', sans-serif;
+        font-size: 50px;
+        font-weight: 700;
+        color: #1a2023;
+        margin-bottom: 20px;
+    }
+
+    .contactsection .contactcontainer .slogan{
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #2d2d2d;
+        margin-bottom: 30px;
+    }
+
+    .contactsection .contactcontainer .card{
+        border: 1px solid #d8d8d850 inset;
+        border-radius: 20px;
+        box-shadow: 35px 29px 50px #3366ff10;
+        background-color: #fcfcfc;
+    }
+
+    .contactsection .contactcontainer .card .card-body{
+        padding: 20px;
+    }
+
+    .contactsection .contactcontainer .card .card-body .subheading{
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+        color: #2d2d2d;
+        margin-bottom: 10px;
+    }
+
+    .contactsection .contactcontainer .card .card-body .icons1 i{
+        font-size: 20px;
+        margin-bottom: 5px;
+        text-align: center;
+        padding: 20px;
+        color: #1a2023;
+        background-color: #E5F4F2;
+        transition: all 0.3s ease;
+    }
+
+    .contactsection .contactcontainer .card .card-body .icons1 i:hover{
+        background-color: #009379;
+        color: #fff;
+        transition: all 0.3s ease;
+        transform: scale(1.1);
+    }
+
+    .contactsection .contactcontainer .card .card-body .fa-ul{
+        margin-bottom: 80px;
+    }
+
+    .contactsection .contactcontainer .card .card-body .fa-ul li{
+        font-size: 20px;
+        font-weight: 400;
+        color: #2d2d2d;
+        margin-bottom: 20px;
+    }
+
+    .contactsection .contactcontainer .card .card-body .fa-ul li i{
+        --fa-primary-color: #009379;
+        --fa-secondary-color: #009379;
+    }
+        
+    .contactsection .contactcontainer .card .card-body form .inputcontainer{
+        border: 2px solid #d8d8d8;
+        border-radius: 20px;
+        padding: 10px 20px;
+    }
+
+    .contactsection .contactcontainer .card .card-body form .inputcontainer i{
+        font-size: 20px;
+        margin-right: 10px;
+        border: none;
+        border-right: 2px solid #DBE3FF;
+        padding-right: 10px;
+        --fa-primary-color: #009379;
+        --fa-secondary-color: #009379;
+    }
+
+    .contactsection .contactcontainer .card .card-body form .inputcontainer input{
+        border: none;
+        outline: none;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #2d2d2d;
+    }
+
+    .contactsection .contactcontainer .card .card-body form .inputcontainer textarea{
+        border: none;
+        outline: none;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #2d2d2d;
+    }
+        
+    .contactsection .contactcontainer .card .card-body form .inputcontainer .form-control:focus {
+        box-shadow: none;
+        border: none;
+        outline: none;
+    }
+
+    .contactsection .contactcontainer .card .card-body form .primarybtn{
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #009379;
+        border: none;
+        outline: none;
+        color: #ffffff;
+        transition: 0.3s ease-in-out all;
+        text-decoration: none;
+        padding: 15px 55px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+
+    .contactsection .contactcontainer .card .card-body form .primarybtn:hover{
+        transform: scale(1.1);
+        transition: 0.3s ease-in-out all;
+    }
+
+    .footersection{
+        background-color: #1a2023;
+    }
+
+    .footersection .footercontainer .footertext{
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #ffffff;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+        
+
+
+@media screen and (max-width: 360px){
+    .herosection .herocontainer{
+        padding: 30px 0;
+    }
+
+    .herosection .heading {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .herosection .slogan {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .herosection .primarybtn {
+        padding: 10px 15px;
+
+    }
+
+    .herosection .secondarybtn {
+        padding: 10px 15px;
+    }
+
+    .herosection2 .herocontainer2{
+        padding: 30px 0;
+    }
+
+    .herosection2 .heading {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .herosection2 .slogan {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .herosection2 .primarybtn {
+        padding: 15px 50px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .herosection .herocontainer{
+        padding: 30px 0;
+    }
+
+    .herosection .heading {
+        font-size: 43px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .herosection .slogan {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .herosection .primarybtn {
+        padding: 10px 15px;
+    }
+
+    .herosection .secondarybtn {
+        padding: 10px 15px;
+    }
+
+    .herosection2 .herocontainer2{
+        padding: 30px 0;
+    }
+
+    .herosection2 .heading {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .herosection2 .slogan {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .herosection2 .primarybtn {
+        padding: 15px 50px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .herosection .herocontainer{
+        padding: 30px 0;
+    }
+
+    .herosection .heading {
+        font-size: 50px;
+    }
+
+    .herosection .slogan {
+        font-size: 16px;
+    }
+
+    .herosection .primarybtn {
+        padding: 15px 50px;
+    }
+
+    .herosection .secondarybtn {
+        padding: 15px 50px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .herosection .herocontainer{
+        padding: 30px 0;
+    }
+
+    .herosection .heading {
+        font-size: 50px;
+    }
+
+    .herosection .slogan {
+        font-size: 16px;
+    }
+
+    .herosection .primarybtn {
+        padding: 10px 15px;
+    }
+
+    .herosection .secondarybtn {
+        padding: 10px 15px;
+    }
+}
